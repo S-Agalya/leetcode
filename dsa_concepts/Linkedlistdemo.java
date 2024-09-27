@@ -2,7 +2,7 @@
 
 import java.util.LinkedList;
 
-class Linkedlistdemo{
+class Linkedlistdemo {
     public static void main(String[] args){
         LinkedList<Integer> numbers=new LinkedList<Integer>();
         numbers.add(5);
@@ -12,7 +12,7 @@ class Linkedlistdemo{
         numbers.add(1);
         numbers.addFirst(0);
         numbers.addLast(8);
-         numbers.removeFirst();
+        numbers.removeFirst();
         numbers.removeLast();
         System.out.println(numbers);
     }
